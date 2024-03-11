@@ -28,7 +28,7 @@ inputs = {
   allocated_storage = 20
   storage_type      = "standard"
   master_username   = "admin"
-
+  skip_final_snapshot = "true"
   # TODO: To avoid storing your DB password in the code, set it as the environment variable TF_VAR_master_password
 }
 
